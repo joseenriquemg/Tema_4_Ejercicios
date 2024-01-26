@@ -1,4 +1,4 @@
-package TablasFunciones;
+package tablasfunciones;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -7,9 +7,9 @@ public class Ejercicio01 {
 
 	public static void main(String[] args) {
 		int tablaNum[] = new int[5];
-		int numRand = 0;
+		
 		Random rand = new Random();
-
+        
 		for (int i = 0; i < tablaNum.length; i++) {
 			tablaNum[i] = rand.nextInt(1, 10);
 		}

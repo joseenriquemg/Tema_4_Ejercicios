@@ -1,4 +1,4 @@
-package EjerciciosSinArrays;
+package ejerciciossinarrays;
 
 import java.util.Scanner;
 

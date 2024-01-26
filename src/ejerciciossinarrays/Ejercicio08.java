@@ -1,4 +1,4 @@
-package EjerciciosSinArrays;
+package ejerciciossinarrays;
 
 public class Ejercicio08 {
 
