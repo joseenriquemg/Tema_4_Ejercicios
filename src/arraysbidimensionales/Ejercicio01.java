@@ -1,11 +1,18 @@
 package arraysbidimensionales;
 
+/**
+ * Clase ejercicio01
+ */
 public class Ejercicio01 {
-
+	
+	/**
+	 * Metodo main.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		//Creamos una tbla de bidimensionales.
-		int [] [] numero = new int [3][6];
+		final int [][] numero = new int [3][6];
 		
 		//Ponemos nuestros numeros
 		numero [0][0] = 0;

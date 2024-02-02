@@ -2,6 +2,9 @@ package arraysbidimensionales;
 
 import java.util.Scanner;
 
+/**
+ * Clase Ejercicio02
+ */
 public class Ejercicio02 {
 
 	public static final int NUM_ALUMNOS = 4;
