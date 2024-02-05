@@ -6,7 +6,7 @@ import java.util.Random;
 public class Ejercicio07 {
 
 	public static void main(String[] args) {
-		int[] ganadora = { 3, 6, 9, 15, 32, 48 };
+		int[] ganadora = { 7, 19, 22, 33, 40, 45 };
 		int[] apuesta = new int[6];
 		int numero;
 		int i = 0;

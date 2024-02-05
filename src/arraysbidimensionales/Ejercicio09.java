@@ -1,7 +1,7 @@
 package arraysbidimensionales;
 
 public class Ejercicio09 {
-	
+
 	public static void main(String[] args) {
 
 		// Creamos nuestra tabla mágica.
@@ -75,10 +75,9 @@ public class Ejercicio09 {
 			contadorFilas = 0;
 			suma = 0;
 		}
-		
+
 		return magica;
 
 	}
-	
 
 }
