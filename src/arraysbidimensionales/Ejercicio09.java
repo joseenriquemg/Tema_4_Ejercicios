@@ -5,9 +5,9 @@ public class Ejercicio09 {
 	public static void main(String[] args) {
 
 		// Creamos nuestra tabla mágica.
-		int[][] tabla = { { 1, 1, 1 }, { 1, 1, 1 }, { 1, 1, 1 } };
+		int[][] tabla = { { 1, 2, 3 }, { 1, 2, 3 }, { 1, 2, 3 } };
 
-		System.out.println(esMagica(tabla));
+		System.out.println("¿Es la matriz mágica? " + esMagica(tabla));
 	}
 
 	static boolean esMagica(int tabla2[][]) {
