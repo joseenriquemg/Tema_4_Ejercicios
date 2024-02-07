@@ -6,10 +6,15 @@ import java.util.Random;
 public class Ejercicio07 {
 
 	public static void main(String[] args) {
+		//Variable que recoge la tabla arrays ganadora
 		int[] ganadora = { 7, 19, 22, 33, 40, 45 };
+		//Variable para recoger la serie del jugador
 		int[] apuesta = new int[6];
+		
 		int numero;
+		
 		int i = 0;
+		//Variabe para recoger el numero de aciertos
 		int aciertos = 0;
 
 		Random rand = new Random();

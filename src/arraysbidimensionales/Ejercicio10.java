@@ -2,52 +2,34 @@ package arraysbidimensionales;
 
 public class Ejercicio10 {
 
-	 public static boolean esMagica(int tabla[][]) {
-	        int n = tabla.length;
-	        
-	        // Calcular la suma de la primera fila
-	        int sumaFila = 0;
-	        for (int j = 0; j < n; j++) {
-	            sumaFila += tabla[0][j];
-	        }
-	        
-	        // Verificar la suma de las filas
-	        for (int i = 1; i < n; i++) {
-	            int sumaFilaActual = 0;
-	            for (int j = 0; j < n; j++) {
-	                sumaFilaActual += tabla[i][j];
-	            }
-	            if (sumaFilaActual != sumaFila) {
-	                return false;
-	            }
-	        }
-	        
-	        // Verificar la suma de las columnas
-	        for (int j = 0; j < n; j++) {
-	            int sumaColumnaActual = 0;
-	            for (int i = 0; i < n; i++) {
-	                sumaColumnaActual += tabla[i][j];
-	            }
-	            if (sumaColumnaActual != sumaFila) {
-	                return false;
-	            }
-	        }
-	        
-	        // Si todas las sumas son iguales, es una matriz mágica
-	        return true;
-	    }
+	public static void main(String[] args) {
 
-	    public static void main(String[] args) {
-	        // Ejemplo de uso
-	        int[][] matriz = {
-	            {2, 7, 6},
-	            {9, 5, 1},
-	            {4, 3, 8}
-	        };
-	        
-	        boolean esMagica = esMagica(matriz);
-	        System.out.println("¿Es la matriz mágica? " + esMagica);
+		int tabla[][] = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 } };
+		int tablaFin[][] = gira90(tabla);
+
+		for (int[] fila : tablaFin) {
+			for (int valor : fila) {
+				System.out.print(valor + "\t");
+			}
+			System.out.println();
+		}
 
 	}
 
+	public static int[][] gira90(int tablaInicio[][]) {
+		int tablaFinal[][] = null;
+		if (tablaInicio != null) {
+			if (tablaInicio.length == tablaInicio[0].length) {
+				tablaFinal = new int[tablaInicio.length][tablaInicio.length];
+
+				for (int i = 0; i < tablaInicio.length; i++) {
+					for (int j = 0; j < tablaInicio[0].length; j++) {
+						tablaFinal[j][tablaInicio.length - i - 1] = tablaInicio[i][j];
+
+					}
+				}
+			}
+		}
+		return tablaFinal;
+	}
 }

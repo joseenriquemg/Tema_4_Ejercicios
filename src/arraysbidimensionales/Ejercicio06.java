@@ -22,15 +22,15 @@ public class Ejercicio06 {
 	        int[] serieGanadora = generarSerieGanadora();
 
 	        // Mostrar los números ingresados por el usuario y la serie ganadora
-	        System.out.println("\nNúmeros ingresados por el usuario: " + Arrays.toString(numerosUsuario));
+	        System.out.println("Números ingresados por el usuario: " + Arrays.toString(numerosUsuario));
 	        System.out.println("Serie ganadora: " + Arrays.toString(serieGanadora));
 
 	        // Comprobar si el usuario ha acertado algún número
 	        int aciertos = contarAciertos(numerosUsuario, serieGanadora);
 	        if (aciertos > 0) {
-	            System.out.println("\n¡Felicidades! Has acertado " + aciertos + " número(s) en la serie ganadora.");
+	            System.out.println("¡Nada mal! Has acertado " + aciertos + " número(s) en la serie ganadora.");
 	        } else {
-	            System.out.println("\nLo siento, no has acertado ningún número en la serie ganadora. ¡Inténtalo de nuevo!");
+	            System.out.println("No has acertado ningún número en la serie ganadora. ¡Inténtalo de nuevo!");
 	        }
 
 	        // Cerrar el objeto Scanner
