@@ -13,9 +13,9 @@ public class Ejercicio02 {
 
 		// Creamos otra variable para recoger el resultado
 		String resultado = "";
-		
-		//Creamos la variable parta recoger el caracter
-		char[] = caracter;
+
+		// Creamos la variable parta recoger el caracter
+		char hola[] = new char[5];
 
 		// Creamos un nuevo Scanner para guardar cadenas introducidas
 		Scanner sc = new Scanner(System.in);
@@ -37,19 +37,10 @@ public class Ejercicio02 {
 				System.out.println("Incorrecta, intentelo de nuevo:");
 				intento = sc.next();
 			}
-			
-			for (int i = 0; i < contraseña.length(); i++) {
-				
-			}
-			
-			
-			
-			
-			
-			
+		} while (intento.equals("hola"));
 
-		} 
+		for (int i = 0; i < contraseña.length(); i++) {
+		}
 
 	}
-
 }

@@ -27,7 +27,7 @@ public class Ejercicio05 {
 	}
 	
 	public static String cadenaInvertida (String cadena) {
-		//Creamos nuestra variable para recoger la cadena invertida
+		//Creamos nuestra variable para recoger la cadena invertida dasd
 		String cadenaInvertida = "";
 		
 		//Creamos un bucle for para ir leyendo la frase

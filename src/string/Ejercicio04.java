@@ -21,7 +21,7 @@ public class Ejercicio04 {
 		//Leemos del teclado
 		frase = sc.nextLine();
 		
-		//Utilizamos el .split para dividir la frase por palabras
+		//Utilizamos el .split para dividir la frase por palabras asd
 		palabras = frase.split(" ");
 		
 		// Utilizamos Arrays.sort para ordenar la frase

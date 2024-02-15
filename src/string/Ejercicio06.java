@@ -14,7 +14,7 @@ public class Ejercicio06 {
 		// Creamos un nuevo Scanner
 		Scanner sc = new Scanner (System.in);
 				
-		//Solicitamos al usuario la palabra que desea añadir
+		//Solicitamos al usuario la palabra que desea añadir dasd
 		System.out.println("Introduzca la palabra que desea añadir:");
 				
 		//Leemos del teclado

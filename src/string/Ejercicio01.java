@@ -17,7 +17,7 @@ public class Ejercicio01 {
 		// Solicitamos al usuario la primera cadena
 		System.out.println("Introduzca la primera cadena de palabras");
 
-		// Leemos la cadena del teclado
+		// Leemos la cadena del teclado das
 		cadena1 = sc.next();
 
 		// Solicitamos al usuario la segunda cadena
