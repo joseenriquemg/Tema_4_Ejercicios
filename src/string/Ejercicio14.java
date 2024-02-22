@@ -15,11 +15,11 @@ public class Ejercicio14 {
 		// Solicitamos la frase al usuario
 		System.out.println("Introduzca la frase que desea analizar:");
 
-		// Convertimos las letras introducidas a minusculas
-		frase = frase.toLowerCase();
-
 		// Leemos la frase introducida por teclado
 		frase = sc.nextLine();
+		
+		// Convertimos las letras introducidas a minusculas
+		frase = frase.toLowerCase();
 
 		// Creamos una tabla arrays para recoger las 26 letras del abecedario
 		int[] contadorLetras = new int[26];
@@ -39,6 +39,7 @@ public class Ejercicio14 {
 				System.out.println(letra + ": " + contadorLetras[letra - 'a'] + " veces");
 			}
 		}
+		
 		// Cerramos el Scanner
 		sc.close();
 
